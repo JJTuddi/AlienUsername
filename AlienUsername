@@ -1,0 +1,2 @@
+import re
+[print(x) for x in ["VALID" if re.match(r"^[\._]\d+[a-zA-Z]*_{,1}$", inp) != None else "INVALID" for inp in [input() for _ in range(int(input()))]]]
